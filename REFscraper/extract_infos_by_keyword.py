@@ -117,7 +117,7 @@ def add_in_paper_repo(papername,year,author,cite,publi,link):
 for i in range (0,10):
     
  
-  doc = get_paperinfo('aiops')
+  doc = scrape_by_keyword('aiops')
 
   # function for the collecting tags
   paper_tag,cite_tag,link_tag,author_tag = get_tags(doc)
