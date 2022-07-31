@@ -114,7 +114,7 @@ def add_in_paper_repo(papername,year,author,cite,publi,link):
   return pd.DataFrame(paper_repos_dict)
 
 
-for i in range (0,110,10):
+for i in range (0,10):
     
  
   doc = get_paperinfo('aiops')
